@@ -1,0 +1,515 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+
+/* CSS reset */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+/* CSS variables */
+
+/* General Styles */
+
+.body-font {
+  font-weight: 20;
+}
+
+.sub-heading {
+  font-size: 75px;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+.paragraph-text {
+  margin: 0px 135px;
+  font-size: 29px;
+  font-weight: 100;
+  font-family: "Dosis", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+hr {
+  border: 1.8px solid;
+  color: #2e2f2c;
+}
+
+/* Navigation Bar */
+
+#logo {
+  width: 33%;
+}
+
+#division {
+  display: flex;
+  width: 33%;
+  align-items: center;
+  justify-content: center;
+}
+
+#icons-box {
+  width: 33%;
+}
+
+#navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), 75%, transparent);
+}
+
+/* Navigation Bar: Icons */
+
+.icons {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.nav-icons {
+  height: 40px;
+  width: 40px;
+}
+
+#discord-logo {
+  border-radius: 50%;
+  background-color: white;
+}
+
+#mail-logo {
+  border-radius: 50%;
+}
+
+#insta-logo {
+  border-radius: 50%;
+}
+
+#github-logo {
+  border-radius: 50%;
+}
+
+#linkedin-logo {
+  border-radius: 50%;
+}
+
+/* Navigation Bar: logo and image */
+
+#logo-image {
+  height: 90px;
+  width: 135px;
+  padding: 0px 8px;
+}
+
+/* navbar buttons */
+
+#navbar-button {
+  font-size: 30px;
+  height: 50px;
+  padding: 10px;
+  background-color: transparent;
+  border: transparent;
+  color: white;
+  transition-duration: 0.2s;
+  font-family: Garamond, serif;
+}
+
+#navbar-button:hover {
+  background-color: gray;
+}
+
+/* Banner */
+
+#banner {
+  background-color: #f46435;
+  background-image: url("images/epoch-bg.png");
+  height: 800px;
+}
+
+/* Banner Image and Text - Division */
+
+#banner-flex {
+  display: flex;
+}
+
+#banner-image {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  filter: brightness(90%);
+  transition-duration: 0.4s;
+  border-radius: 50%;
+}
+#banner_image:hover {
+  content: url("images/hover5.png");
+  border-radius: 500px;
+  border: 30px solid #2e2f2c;
+}
+
+/* Banner Image and Text */
+
+#banner_image {
+  height: auto;
+  width: 50%;
+}
+
+.banner-image-style {
+  margin: auto;
+}
+
+#hero-text-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.banner-text-style {
+  font-size: 420%;
+  font-family: "Tilt Warp", sans-serif;
+  color: white;
+  text-shadow: 8px 7px 4px rgb(0 0 0 / 60%);
+}
+
+.hero-heading {
+  -webkit-text-stroke: 1.5px black;
+}
+
+/* Heading */
+
+/* About Section */
+
+#about-heading {
+  color: white;
+  font-family: "Calistoga", cursive;
+}
+
+#background-about-section {
+  background: black;
+  display: inline-block;
+  width: 100%;
+}
+
+#about-flex {
+  display: flex;
+}
+
+#about-content-1 {
+  width: 80%;
+  height: 220px;
+}
+
+#about-image-box {
+  width: 20%;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-image {
+  height: 220px;
+  width: auto;
+}
+
+.about-text {
+  margin-left: 110px;
+  font-size: 29px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+}
+
+.about-text-neeche {
+  padding-top: 29px;
+  padding-bottom: 35px;
+}
+
+/* Hackclub Section */
+
+#hackclub-flex {
+  display: flex;
+}
+
+#hackclub-heading-box {
+  width: 70%;
+  height: 150px;
+  margin-top: 50px;
+}
+
+#hackclub-image-box {
+  width: 30%;
+  height: 150px;
+}
+
+#hackclub-image {
+  height: 150px;
+  width: auto;
+  padding-right: 10px;
+  float: right;
+  padding-right: 80px;
+}
+
+/* Join Club Section */
+
+.joinclub-text {
+  margin-top: 50px;
+  font-family: "Dosis", sans-serif;
+}
+
+#registeration-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.register-font {
+  font-size: 22px;
+  color: #555555;
+}
+
+.buttons-container {
+  padding-top: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f75e45;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* The Team Section */
+
+#theteam-section {
+  /* opacity: 80%; */
+  background: url("/images/banner3.png");
+  height: 485px;
+  display: inline-block;
+  width: 100%;
+}
+
+#theteam-heading {
+  font-family: "Calistoga", cursive;
+}
+
+.theteam-flex {
+  display: flex;
+  padding-top: 30px;
+}
+
+.theteam-division {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: auto;
+}
+
+.theteam-box {
+  width: 350px;
+  height: 105%;
+  background-color: white;
+  border: black solid 3px;
+  border-radius: 50px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 10px; */
+}
+
+.theteam-image-box {
+  padding-bottom: 10px;
+}
+
+.theteam-text-box {
+  padding-top: 10px;
+  font-family: "Calistoga", cursive;
+}
+
+.team-image {
+  height: 100px;
+  width: auto;
+  border-radius: 50px;
+  border: solid black;
+}
+
+.theteam-ul {
+  list-style-type: none;
+}
+
+.team-hr {
+  width: 100%;
+  border: 1px solid;
+}
+
+.theteam-heading {
+  margin: 0px 0px;
+  color: white;
+  -webkit-text-stroke: 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FAQ Section */
+
+#FAQ-heading-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#FAQ-heading {
+  font-size: 100px;
+  color: white;
+  -webkit-text-stroke: 2px black;
+  font-family: "Calistoga", cursive;
+}
+
+#FAQ-content-box {
+  padding-bottom: 25px;
+}
+
+.FAQ-questions {
+  margin: 20px 110px;
+  font-size: 50px;
+  font-weight: lighter;
+  font-family: "Dosis", sans-serif;
+}
+
+.FAQ-answers {
+  margin: 20px 150px;
+  font-size: 35px;
+  font-weight: 50;
+  font-family: "Dosis", sans-serif;
+}
+
+/* Footer Section */
+
+#linktree-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.linktree-link-font {
+  font-size: 25px;
+}
+
+#the-coding-spirits-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.the-coding-spirits-font {
+  font-size: 26px;
+  color: white;
+  -webkit-text-stroke: 1.5px black;
+}
+
+#trademark-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trademark-font {
+  font-size: 20px;
+}
+
+#github-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+/* icons bar neeche */
+
+.navbar2 {
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), 75%, transparent);
+}
+
+/* EPOCH SECTION */
+
+.epoch-section {
+  width: 100%;
+  height: 650px;
+  background-color: black;
+}
+
+#epoch-heading {
+  font-size: 80px;
+  margin-left: 45vw;
+  color: white;
+  font-family: "Calistoga", cursive;
+}
+
+#epoch-text {
+  font-size: 30px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  color: white;
+  margin-left: 22vw;
+  font-family: "Dosis", sans-serif;
+}
+
+#epoch-iframe {
+  margin-left: 35vw;
+  margin-bottom: 60px;
+}
