@@ -26,6 +26,7 @@ html {
   font-size: 75px;
   margin-left: 110px;
   margin-top: 20px;
+  letter-spacing: 2px;
 }
 
 .paragraph-text {
@@ -80,8 +81,9 @@ hr {
 }
 
 #discord-logo {
-  border-radius: 50%;
+  border-radius: 70%;
   background-color: white;
+  overflow: hidden;
 }
 
 #mail-logo {
@@ -192,6 +194,7 @@ hr {
 #about-heading {
   color: white;
   font-family: "Calistoga", cursive;
+  letter-spacing: 3px;
 }
 
 #background-about-section {
@@ -289,7 +292,7 @@ hr {
 
 .button {
   display: inline-block;
-  border-radius: 4px;
+  border-radius: 15px;
   background-color: #f75e45;
   border: none;
   color: #ffffff;
