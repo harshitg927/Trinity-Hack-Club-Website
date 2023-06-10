@@ -385,7 +385,7 @@ button {
   justify-content: center;
 }
 
-#epoch-heading {
+.epoch-heading {
   font-size: 80px;
   margin-left: 50px;
   color: white;
