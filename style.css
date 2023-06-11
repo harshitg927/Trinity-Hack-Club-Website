@@ -151,11 +151,11 @@ hr {
   height: 800px;
   filter: brightness(90%);
   transition-duration: 0.4s;
-  border-radius: 50%;
 }
 #banner_image:hover {
   content: url("images/hover6.png");
   border-radius: 50%;
+  box-shadow: hidden;
 }
 
 /* Banner Image and Text */
@@ -163,6 +163,8 @@ hr {
 #banner_image {
   height: auto;
   width: 50%;
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px black;
 }
 
 .banner-image-style {
@@ -188,7 +190,11 @@ hr {
   -webkit-text-stroke: 1.5px black;
 }
 
-/* Heading */
+/* banner button */
+
+.enroll-button {
+  box-shadow: 10px 10px 20px black;
+}
 
 /* About Section */
 
