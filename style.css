@@ -155,7 +155,6 @@ hr {
 #banner_image:hover {
   content: url("images/hover6.png");
   border-radius: 50%;
-  box-shadow: hidden;
 }
 
 /* Banner Image and Text */
@@ -500,6 +499,7 @@ hr {
   font-size: 80px;
   margin-left: 45vw;
   color: white;
+  font-family: "Calistoga", cursive;
 }
 
 #epoch-text {
