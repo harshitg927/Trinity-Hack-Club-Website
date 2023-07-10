@@ -52,7 +52,7 @@ hr {
 
 #division {
   display: flex;
-  width: 33%;
+  width: 50%;
   align-items: center;
   justify-content: center;
 }
@@ -80,19 +80,14 @@ hr {
 .nav-icons {
   height: 40px;
   width: 40px;
+  padding: 0px 6px;
 }
 
-#discord-logo {
-  border-radius: 70%;
-  background-color: white;
-  overflow: hidden;
+svg {
+  fill: white;
 }
 
 #mail-logo {
-  border-radius: 50%;
-}
-
-#insta-logo {
   border-radius: 50%;
 }
 
@@ -117,7 +112,7 @@ hr {
 #navbar-button {
   font-size: 30px;
   height: 50px;
-  padding: 10px;
+  padding: 10px 20px;
   background-color: transparent;
   border: transparent;
   color: white;
@@ -151,10 +146,6 @@ hr {
   height: 800px;
   filter: brightness(90%);
   transition-duration: 0.4s;
-}
-#banner_image:hover {
-  content: url("images/hover6.png");
-  border-radius: 50%;
 }
 
 /* Banner Image and Text */
