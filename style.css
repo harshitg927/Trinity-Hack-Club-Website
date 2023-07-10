@@ -313,7 +313,7 @@ svg {
 
 #theteam-section {
   /* opacity: 80%; */
-  background: url("/images/banner3.png");
+  background: url("/images/tryingbg.png");
   height: 485px;
   display: inline-block;
   width: 100%;
@@ -412,48 +412,6 @@ svg {
   font-family: "Dosis", sans-serif;
 }
 
-/* Footer Section */
-
-#linktree-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 20px;
-}
-
-.linktree-link-font {
-  font-size: 25px;
-}
-
-#the-coding-spirits-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.the-coding-spirits-font {
-  font-size: 26px;
-  color: white;
-  -webkit-text-stroke: 1.5px black;
-}
-
-#trademark-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.trademark-font {
-  font-size: 20px;
-}
-
-#github-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 40px;
-}
-
 /* icons bar neeche */
 
 .navbar2 {
@@ -489,4 +447,33 @@ svg {
 #epoch-iframe {
   margin-left: 35vw;
   margin-bottom: 60px;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #2e2f2c;
+}
+
+#footer-logo-container {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hackclub-trinity-icon {
+  height: auto;
+  width: 65px;
+  border-radius: 50%;
+}
+
+#footer-name-container {
+  margin: 0px 10px;
+}
+
+#footer-name {
+  color: white;
+  font-size: 35px;
 }
