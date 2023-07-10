@@ -54,11 +54,11 @@ hr {
   display: flex;
   width: 50%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #icons-box {
-  width: 33%;
+  width: 50%;
 }
 
 #navbar {
@@ -77,6 +77,10 @@ hr {
   justify-content: flex-end;
 }
 
+.icon {
+  margin: 10px 5px;
+}
+
 .nav-icons {
   height: 40px;
   width: 40px;
@@ -85,26 +89,6 @@ hr {
 
 svg {
   fill: white;
-}
-
-#mail-logo {
-  border-radius: 50%;
-}
-
-#github-logo {
-  border-radius: 50%;
-}
-
-#linkedin-logo {
-  border-radius: 50%;
-}
-
-/* Navigation Bar: logo and image */
-
-#logo-image {
-  height: 90px;
-  width: 135px;
-  padding: 0px 8px;
 }
 
 /* navbar hyperlink buttons */
@@ -121,7 +105,7 @@ svg {
 }
 
 #navbar-button:hover {
-  background-color: gray;
+  color: gray;
 }
 
 /* Banner */
