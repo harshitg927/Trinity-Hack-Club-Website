@@ -15,6 +15,7 @@
     <link rel="stylesheet" media="screen and (max-width: 1100px)" href="phone.css">
     <link rel="stylesheet" media="screen and (min-width: 1100px)" href="style.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
@@ -211,16 +212,16 @@
             <br><br>
             <hr>
         </div>
-        <footer>
-            <div id="footer">
-                <div id="footer-logo-container">
-                    <img id="hackclub-trinity-icon" src="/images/footer-logo.png" alt="footer-logo">
-                    <div id="footer-name-container">
-                        <h3 id="footer-name">Trinity</h3>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <footer class="text-gray-600 body-font">
+            <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+              <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <img id="footer-logo" src="/images/footer-logo.png" alt="logo">
+                <span class="ml-3 text-xl">Trinity HC</span>
+              </a>
+              <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 - Openly hosted on github -
+                <a href="https://github.com/trinityhackclub" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@trinityhackclub</a>
+              </p>
+          </footer>
         <script src="script.js"></script>
     </div>
 </body>
