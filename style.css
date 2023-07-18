@@ -451,29 +451,12 @@ svg {
 
 /* Footer Section */
 
-#footer {
-  background-color: #2e2f2c;
+footer {
+  background-color: antiquewhite;
 }
 
-#footer-logo-container {
-  width: 50%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#hackclub-trinity-icon {
+#footer-logo {
   height: auto;
-  width: 65px;
+  width: 50px;
   border-radius: 50%;
-}
-
-#footer-name-container {
-  margin: 0px 10px;
-}
-
-#footer-name {
-  color: white;
-  font-size: 35px;
 }
